@@ -1,0 +1,10 @@
+const char* lock_name = "fdsfdds";
+const char* mqtt_server = "163.172.90.25";
+const int mqtt_port = "9002";
+const char* mqtt_user = "fdsfdds";
+const char* mqtt_pass = "432";
+const char* post_topic = "locks/fdsfdds/try";
+char* success_topic = "locks/fdsfdds/result/open";
+char* deny_topic = "locks/fdsfdds/result/deny";
+char* newcard_topic = "locks/fdsfdds/new-key/waiting-for-new-key";
+char* key_added_topic = "locks/fdsfdds/new-key/key_added";

@@ -1,0 +1,9 @@
+﻿security:
+encoders:
+AppBundle\Entity\User:
+algorithm: newdata
+providers:
+entity_provider:
+entity: newdata
+class: AppBundle:User
+property: username

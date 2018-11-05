@@ -1,0 +1,10 @@
+const char* lock_name = "Some";
+const char* mqtt_server = "host_ip";
+const int mqtt_port = "ports";
+const char* mqtt_user = "lockusr";
+const char* mqtt_pass = "toor";
+const char* post_topic = "fake-try";
+char* success_topic = "fake-open";
+char* deny_topic = "fake-deny";
+char* newcard_topic = "fake-wait";
+char* key_added_topic = "fake-key-added";

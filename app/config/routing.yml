@@ -1,0 +1,16 @@
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: "/doc"
+login_check:
+    path:     /user/login
+    methods:  [POST]
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+task:
+    resource: "@AppBundle/Controller/TaskController.php"
+    type: rest
+
+pause:
+    resource: "@AppBundle/Controller/PauseController.php"
+    type: rest
